@@ -45,11 +45,6 @@ const PaymentWindow = () => {
         const razor = new window.Razorpay(options);
         razor.open();
     }
-
-
-
-
-
     return (
         <div className="conatiner">
             <div className="card w-50 m-auto my-3">
@@ -77,7 +72,6 @@ const PaymentWindow = () => {
                             name="refcode"
                             onChange={handleRef}
                         />
-                        {/* <button className="btn btn-dark" >Save</button> */}
                     </div>
 
                     <button className="btn btn-danger" onClick={()=>{checkoutHandler(subscription,refcode)}} >Subscribe Now</button>

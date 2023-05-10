@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css';
-import PaymentHome from './components/PaymentHome';
-import PaymentWindow from './components/PaymentWindow';
-import PaymentSuccess from './components/PaymentSuccess';
+import PaymentHome from './components/RazorPay/PaymentHome';
+import PaymentWindow from './components/RazorPay/PaymentWindow';
+import PaymentSuccess from './components/RazorPay/PaymentSuccess';
 
 function App() {
   return (

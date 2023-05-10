@@ -13,9 +13,6 @@ const PaymentWindow = () => {
         setRefcode(e.target.value);
     };
 
-    console.log(subscription)
-    console.log(refcode)
-
     const checkoutHandler = async (subscription,refcode) => {
         const { data: { key } } = await axios.get('http://localhost:8080/api/getkey')
         const { data: { order } } = await axios.post("http://localhost:8080/api/checkout", {

@@ -43,7 +43,7 @@ const PaymentWindow = () => {
         razor.open();
     }
     return (
-        <div className="conatiner">
+        <div className="container">
             <div className="card w-50 m-auto my-3">
                 <div className="card-body">
                     <h5 className="card-title">Choose a subscription:</h5>
